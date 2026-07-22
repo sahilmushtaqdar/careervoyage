@@ -20,3 +20,19 @@ p {
 ul {
     font-size: 18px;
 }
+nav {
+    background-color: darkblue;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: yellow;
+}

@@ -86,3 +86,14 @@ nav a:hover {
 .btn:hover {
     background-color: orange;
 }
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    transition: 0.3s;
+}

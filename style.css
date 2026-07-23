@@ -53,3 +53,34 @@ nav a:hover {
     height: auto;
     display: block;
 }
+.hero {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.hero h2 {
+    color: white;
+    font-size: 36px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.btn {
+    background-color: yellow;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: orange;
+}

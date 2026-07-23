@@ -167,3 +167,28 @@ body {
     background-attachment: fixed;
     margin: 20px;
 }
+.featured-courses {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 40px 0;
+}
+
+.course {
+    background: white;
+    width: 280px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.course h3 {
+    color: darkblue;
+}
+
+.course:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
